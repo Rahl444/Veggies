@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    gap: 5vw;
+    width: fit-content;
+    position: relative;
+    
+}
+
+.ImageRight{
+    position: relative;
+    left: 3vw;
+    top: -5vh;
+    width: 50vw;
+    /* height: 10vh; */
+    display: flex;
+    /* background-color: aqua; */
+}
+.left{
+    width: fit-content;
+    height: 100vh;
+}
+
+.formParent{
+    width: 100%;
+    text-align: center;
+}
+.Form{
+    /* width: fit-content; */
+    position: relative;
+    top: 2vh;
+}
+
+input{
+    border: 2px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+    
+}
+input:focus {
+    outline: none;
+}
+
+.name , .email{
+    width: 20vw;
+    padding: 0.5vw;
+}
+.email{
+    margin-left: 2vw;
+}
+.message{
+    width: 42vw;
+    height: 15vh;
+    padding: 2vw;
+    position: relative;
+    top: 2vh;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.des{
+    font-size: 0.7rem ;
+    width: 100%;
+    text-align: center;
+}
+.des1{
+    width: 70%;
+    position: relative;
+    left: 15%;
+}
+
+.querybox{
+    font-size: 0.7rem ;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.queryT{
+    position: relative;
+    right: 4vw;
+}
+
+.Submit{
+    margin-top: 5vh;
+    text-align: center;
+}
+
+@media (max-width:600px) {
+    .ImageRight{
+        display: none;
+    }
+
+    .name , .email{
+        width: 30vw;
+        padding: 0.5vw;
+    }
+    .email{
+        margin-left: 2vw;
+    }
+    .message{
+        width: 62vw;
+        height: 15vh;
+        padding: 2vw;
+        position: relative;
+        top: 2vh;
+    }
+}
